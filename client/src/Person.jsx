@@ -1,25 +1,28 @@
 import React from 'react'
 
-function Person() {
+// function Person() {
 
-    const personDetails = {
-        name: 'SAmid',
-        age: 23,
-        phone: "12345678",
-        email: "samjalna005@gmail.com",
-    };
+// const personDetails = {
+//     name: 'SAmid',
+//     age: 23,
+//     phone: "12345678",
+//     email: "samjalna005@gmail.com",
+// };
 
-  return (
-    <>
-    <h1>Person Details</h1>
-    <p>Name: {personDetails.name}</p>
-    <p>Age: {personDetails.age}</p>
-    <p>Phone: {personDetails.phone}</p>
-    <p>Email: {personDetails.email}</p>
-    <hr />
-    <br />
-    </>
-  )
+//! Props
+const Person = (props) => {
+
+    return (
+        <>
+            <h1>Person Details</h1>
+            <p>Name: {props.name}</p>
+            <p>Age: {props.age}</p>
+            <p>Phone: {props.phone}</p>
+            <p>Email: {props.email}</p>
+            <hr />
+            <br />
+        </>
+    )
 }
 
 export default Person

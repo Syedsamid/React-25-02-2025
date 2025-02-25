@@ -77,24 +77,6 @@
 // export default App
 
 
-import React from 'react';
-import Person from './Person';
-
-function App() {
-  return (
-    <>
-    <h1>Hello World</h1>
-    <Person/>
-    <Person/>
-    {/* <Person></Person> */}
-    </>
-  )
-}
-
-
-export default App
-
-
 
 // import React from 'react'
 
@@ -113,3 +95,41 @@ export default App
 
 // // rafc
 // import {Person} from "./Person"
+
+
+
+
+// import React from 'react';
+// import Person from './Person';
+
+// function App() {
+//   return (
+//     <>
+//     <h1>Hello World</h1>
+//     <Person/>
+//     <Person/>
+//     {/* <Person></Person> */}
+//     </>
+//   )
+// }
+
+// export default App
+
+
+//! Props
+
+import React from 'react';
+import Person from './Person';
+
+function App() {
+  return (
+    <>
+    <h1>Person Details</h1>
+    <Person name="Suhail" age="23" phone="4567" email="suhail@code.in"/>
+    <Person name="samid" age="22" phone="345678" email="samjalna005@gmmail.com"/>
+    <Person name="muzammil" age="25" phone="9422927306" email="suhail@code.in"/>
+    </>
+  )
+}
+
+export default App
