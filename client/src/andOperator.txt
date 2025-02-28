@@ -1,0 +1,26 @@
+using &&boperator in Adhar2.jsx
+
+1. The && (logical) operator in React is commonly
+used for conditional rendering. It allows you to render
+a componemt or element only if a certain conditional is met.
+
+Basic syntax in Javascript
+The && operator works as follows:
+
+If the left-hand side condition is true, the right-hand side expression is returned.
+If the left-hand side condition is false, nothing (or false) is returned.
+
+console.log(true && "Hello")
+console.log(false && "Hello")
+
+&& is useful for conditionally rendering UI elements only if a condition is true.
+Be careful with falsy value (0, "", null, undefined, false)
+If you need an else case, use the ternary operator (? :) instead.
+
+// There are 2 cases
+
+1. If there is a condition you want to check and send response according to that 
+condition then use ternary operator
+
+2. If there is a condition or value which you want to show only if its There
+and dont show if its ot there then use && operator
